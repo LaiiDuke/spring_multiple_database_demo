@@ -1,0 +1,19 @@
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+hibernate:
+  hbm2ddl:
+    auto: update
+  cache:
+    use_second_level_cache: false
+    use_query_cache: false
+
+spring:
+  datasource:
+    jdbcUrl: jdbc:mysql://localhost:3306/demo_entity
+    username: root
+    password: LaiVanDuc1011
+
+  second-datasource:
+    jdbcUrl: jdbc:mysql://localhost:3306/demo_entity2
+    username: root
+    password: LaiVanDuc1011
